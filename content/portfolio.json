@@ -1,0 +1,512 @@
+{
+  "status": {
+    "mode": "online",
+    "construction": {
+      "note": "Site em construção",
+      "title1": "Toda marca",
+      "title2": "começa num traço.",
+      "text": "O meu portfólio está saindo do papel. Enquanto isso, me encontre nas redes abaixo.",
+      "image": "/images/work/tecnologica-aplicacoes.webp",
+      "opacity": 30,
+      "showContact": true
+    },
+    "maintenance": {
+      "note": "Em manutenção",
+      "title1": "Volto",
+      "title2": "já, já.",
+      "text": "Estou fazendo alguns ajustes no site. Enquanto isso, me encontre nas redes abaixo.",
+      "image": "/images/work/conquist-fachada.webp",
+      "opacity": 30,
+      "showContact": true
+    }
+  },
+  "style": {
+    "buttons": "square",
+    "cards": "square",
+    "logoScale": 100
+  },
+  "site": {
+    "name": "Fabio Correa",
+    "role": "Designer & Marketing 360°",
+    "base": "Maringá · PR",
+    "since": "2017",
+    "email": "fabio@fhcorrea.com.br",
+    "seoTitle": "Fabio Correa — Portfólio",
+    "seoDescription": "O caderno de traços de Fabio Correa: marcas, campanhas, renders e imagens aéreas que começaram num rabisco. Designer em Maringá desde 2017."
+  },
+  "socials": [
+    {
+      "network": "whatsapp",
+      "url": "5544991571891",
+      "text": "Mandar mensagem"
+    },
+    {
+      "network": "linkedin",
+      "url": "https://www.linkedin.com/in/fabio-correa-47493150",
+      "text": "Ver perfil"
+    }
+  ],
+  "hero": {
+    "kicker": "Fabio Correa · designer",
+    "title1": "Toda marca",
+    "title2": "começa num",
+    "pill": "traço.",
+    "lead": "Este é o meu caderno de traços. Marcas, campanhas, renders e imagens aéreas que começaram como um rabisco e ganharam o mundo — de 2017 para cá, a partir de Maringá.",
+    "ctaPrimary": "Folhear as peças",
+    "interval": 6,
+    "slides": [
+      {
+        "src": "/images/work/conquist-fachada.webp",
+        "label": "Conquist · Fachada",
+        "project": "conquist",
+        "alt": "Fachada da imobiliária Conquist com o símbolo azul em 3D.",
+        "poster": ""
+      },
+      {
+        "src": "/images/work/tecnologica-aplicacoes.webp",
+        "label": "Tecnológica · Aplicações",
+        "project": "tecnologica",
+        "alt": "Fachada iluminada da Tecnológica Construtora ao entardecer e capacete com o logotipo.",
+        "poster": ""
+      },
+      {
+        "src": "/images/work/tokyo-social.webp",
+        "label": "Torre de Tokyo · Social",
+        "project": "torre-de-tokyo",
+        "alt": "Stories da campanha Torre de Tokyo sobre fundo vermelho.",
+        "poster": ""
+      },
+      {
+        "src": "/images/ideato/site.webp",
+        "label": "Ideato · Site",
+        "project": "ideato",
+        "alt": "Página inicial do site da Ideato sobre imagem aérea de floresta.",
+        "poster": ""
+      }
+    ],
+    "background": "slides"
+  },
+  "work": {
+    "kicker": "As peças",
+    "title1": "Do rabisco",
+    "title2": "ao mundo.",
+    "intro": "Um recorte do que desenhei, fotografei, filmei e renderizei nos últimos anos. Filtre por frente ou abra um projeto para ver o raciocínio por trás de cada peça.",
+    "showFilters": true,
+    "showFront": true,
+    "showTitle": true,
+    "limit": 11,
+    "showMore": true,
+    "moreLabel": "Ver todos os trabalhos"
+  },
+  "pieces": [
+    {
+      "project": "conquist",
+      "front": "Marca",
+      "title": "Fachada Conquist",
+      "image": "/images/work/conquist-fachada.webp",
+      "alt": "Fachada da imobiliária Conquist com o símbolo azul em 3D e letreiro branco sobre chapa perfurada.",
+      "size": "lg",
+      "hidden": false
+    },
+    {
+      "project": "torre-de-tokyo",
+      "front": "Social",
+      "title": "Campanha de lançamento",
+      "image": "/images/work/tokyo-social.webp",
+      "alt": "Stories da campanha Torre de Tokyo dispostos em diagonal sobre fundo vermelho, com um celular ao centro.",
+      "size": "wide",
+      "hidden": false
+    },
+    {
+      "project": "conquist",
+      "front": "Site",
+      "title": "Site Conquist",
+      "image": "/images/work/conquist-site.webp",
+      "alt": "Tablet exibindo o site da Conquist com vitrine de lançamentos por cidade.",
+      "size": "sm",
+      "hidden": false
+    },
+    {
+      "project": "conquist",
+      "front": "Social",
+      "title": "Feed e perfil",
+      "image": "/images/work/conquist-social.webp",
+      "alt": "Dois celulares com o perfil e posts da Conquist no Instagram, cercados de peças de empreendimentos.",
+      "size": "sm",
+      "hidden": false
+    },
+    {
+      "project": "tecnologica",
+      "front": "Marca",
+      "title": "Tecnológica em uso",
+      "image": "/images/work/tecnologica-aplicacoes.webp",
+      "alt": "Fachada iluminada com a marca Tecnológica Construtora ao entardecer e capacete branco com o logotipo.",
+      "size": "wide",
+      "hidden": false
+    },
+    {
+      "project": "torre-de-tokyo",
+      "front": "3D",
+      "title": "Render do empreendimento",
+      "image": "/images/work/tokyo-render.webp",
+      "alt": "Render de edifício residencial em tons de grafite e areia sob céu azul.",
+      "size": "wide",
+      "hidden": false
+    },
+    {
+      "project": "conquist",
+      "front": "Marca",
+      "title": "Cartões de visita",
+      "image": "/images/work/conquist-cartoes.webp",
+      "alt": "Cartões de visita da Conquist em azul e preto com acabamento metálico.",
+      "size": "sm",
+      "hidden": false
+    },
+    {
+      "project": "torre-de-tokyo",
+      "front": "Marca",
+      "title": "Marca Torre de Tokyo",
+      "image": "/images/work/tokyo-marca.webp",
+      "alt": "Logotipo Torre de Tokyo com pagode branco em círculo vermelho.",
+      "size": "sm",
+      "hidden": false
+    },
+    {
+      "project": "ideato",
+      "front": "Marca",
+      "title": "Ideato Studio",
+      "image": "/images/ideato/brand.webp",
+      "alt": "Parede branca com grande símbolo em verde-lima e blocos geométricos grafite.",
+      "size": "tall",
+      "hidden": false
+    },
+    {
+      "project": "conquist",
+      "front": "Marca",
+      "title": "Pastas institucionais",
+      "image": "/images/work/conquist-pasta.webp",
+      "alt": "Pastas da Conquist em azul com padrão do símbolo e capas pretas com textura de linhas.",
+      "size": "sm",
+      "hidden": false
+    },
+    {
+      "project": "ideato",
+      "front": "Site",
+      "title": "Site Ideato",
+      "image": "/images/ideato/site.webp",
+      "alt": "Página inicial do site da Ideato com título 'Da ideia ao ato' sobre imagem aérea.",
+      "size": "wide",
+      "hidden": false
+    },
+    {
+      "project": "tecnologica",
+      "front": "Marca",
+      "title": "Marca Tecnológica",
+      "image": "/images/work/tecnologica-marca.webp",
+      "alt": "Logotipo Tecnológica Construtora em bege sobre verde escuro.",
+      "size": "sm",
+      "hidden": false
+    }
+  ],
+  "archive": {
+    "kicker": "Arquivo",
+    "title1": "Todos os",
+    "title2": "trabalhos.",
+    "intro": "Cada projeto, com o desafio, a decisão e o que foi entregue. Abra um para ver as peças."
+  },
+  "projects": [
+    {
+      "slug": "conquist",
+      "client": "Imobiliária Conquist",
+      "short": "Conquist",
+      "title": "Conquist: uma marca para quem compra o primeiro imóvel",
+      "summary": "Rebranding completo e sete anos cuidando de toda a comunicação da imobiliária — do cartão de visita à fachada, do feed ao site.",
+      "year": "2019 – 2026",
+      "role": "Analista de Marketing 360°",
+      "fronts": [
+        "Marca",
+        "Social",
+        "Site",
+        "3D"
+      ],
+      "cover": {
+        "src": "/images/work/conquist-fachada.webp",
+        "alt": "Fachada da imobiliária Conquist com o símbolo azul em 3D e letreiro branco."
+      },
+      "challenge": "Uma imobiliária focada em lançamentos na planta competia com construtoras grandes. A marca antiga não passava a confiança de quem ajuda uma família a conquistar o primeiro imóvel, e cada ponto de contato falava uma língua diferente.",
+      "decision": "Redesenhar a identidade inteira e fazer tudo sair dela: o mesmo símbolo, o mesmo azul e o mesmo tom no cartão, na pasta, na fachada, no feed e no site. Uma marca só, operada por uma pessoa só, do planejamento à entrega.",
+      "deliverables": [
+        "Rebranding e identidade visual",
+        "Papelaria: cartões e pastas",
+        "Projeto de fachada",
+        "Social media e tráfego pago (Meta e Google)",
+        "Fotografia, vídeo e drone para obras",
+        "Renders 3D de lançamentos",
+        "Site institucional e SEO"
+      ],
+      "gallery": [
+        {
+          "src": "/images/work/conquist-marca.webp",
+          "alt": "Logotipo Conquist em branco sobre fundo azul com formas de vidro.",
+          "caption": "Identidade",
+          "wide": true
+        },
+        {
+          "src": "/images/work/conquist-cartoes.webp",
+          "alt": "Cartões de visita da Conquist em azul e preto.",
+          "caption": "Cartões"
+        },
+        {
+          "src": "/images/work/conquist-pasta.webp",
+          "alt": "Pastas institucionais da Conquist.",
+          "caption": "Pastas"
+        },
+        {
+          "src": "/images/work/conquist-social.webp",
+          "alt": "Perfil e posts da Conquist no Instagram.",
+          "caption": "Social media"
+        },
+        {
+          "src": "/images/work/conquist-site.webp",
+          "alt": "Site da Conquist em um tablet.",
+          "caption": "Site institucional"
+        }
+      ]
+    },
+    {
+      "slug": "torre-de-tokyo",
+      "client": "Torre de Tokyo",
+      "short": "Torre de Tokyo",
+      "title": "Torre de Tokyo: um nome que já vende o bairro",
+      "summary": "Marca e campanha de lançamento para um residencial perto do Parque do Japão, em Maringá.",
+      "role": "Marca, 3D e campanha",
+      "fronts": [
+        "Marca",
+        "Social",
+        "3D"
+      ],
+      "cover": {
+        "src": "/images/work/tokyo-marca.webp",
+        "alt": "Logotipo Torre de Tokyo com pagode branco em círculo vermelho."
+      },
+      "challenge": "Um residencial de apartamentos com suíte, voltado ao Minha Casa Minha Vida, precisava se destacar entre lançamentos parecidos — e o maior argumento era a localização, ao lado do Parque do Japão.",
+      "decision": "Transformar a vizinhança em identidade: um pagode dentro de um sol vermelho, tipografia geométrica e larga, e uma campanha que coloca o parque na primeira linha de cada peça, com a simulação como chamada única.",
+      "deliverables": [
+        "Nome visual e logotipo",
+        "Render 3D do empreendimento",
+        "Campanha de stories e feed",
+        "Peças para tráfego pago"
+      ],
+      "gallery": [
+        {
+          "src": "/images/work/tokyo-render.webp",
+          "alt": "Render do edifício Torre de Tokyo sob céu azul.",
+          "caption": "Render 3D",
+          "wide": true
+        },
+        {
+          "src": "/images/work/tokyo-social.webp",
+          "alt": "Stories da campanha Torre de Tokyo sobre fundo vermelho.",
+          "caption": "Campanha de lançamento",
+          "wide": true
+        }
+      ]
+    },
+    {
+      "slug": "tecnologica",
+      "client": "Tecnológica Construtora",
+      "short": "Tecnológica",
+      "title": "Tecnológica: engenharia que cabe num monograma",
+      "summary": "Identidade visual para uma construtora — um monograma de linhas contínuas que funciona do capacete à fachada.",
+      "role": "Identidade visual",
+      "fronts": [
+        "Marca"
+      ],
+      "cover": {
+        "src": "/images/work/tecnologica-aplicacoes.webp",
+        "alt": "Fachada iluminada com a marca Tecnológica Construtora e capacete com o logotipo."
+      },
+      "challenge": "Construtora precisava de uma marca que parecesse técnica sem ficar fria, e que se sustentasse tanto em canteiro de obra quanto em escritório e redes.",
+      "decision": "Desenhar as iniciais t e c como uma só linha contínua, como um traço de projeto. O monograma vira grafismo de parede em neon, carimbo em EPI e ícone de perfil — sempre em verde profundo e bege, cores de terra e obra.",
+      "deliverables": [
+        "Monograma e logotipo",
+        "Paleta e tipografia",
+        "Aplicações: fachada e EPI",
+        "Conteúdo institucional e audiovisual"
+      ],
+      "gallery": [
+        {
+          "src": "/images/work/tecnologica-marca.webp",
+          "alt": "Logotipo Tecnológica Construtora em bege sobre verde escuro.",
+          "caption": "Assinatura principal",
+          "wide": true
+        }
+      ]
+    },
+    {
+      "slug": "ideato",
+      "client": "Ideato Studio",
+      "short": "Ideato",
+      "title": "Ideato: o estúdio que é uma vertente do meu trabalho",
+      "summary": "Marca, design system e site do meu estúdio: marca, social, imagem aérea e site sob o mesmo raciocínio.",
+      "role": "Fundador · marca, sistema e site",
+      "fronts": [
+        "Marca",
+        "Site"
+      ],
+      "cover": {
+        "src": "/images/ideato/site.webp",
+        "alt": "Página inicial do site da Ideato com título 'Da ideia ao ato' sobre imagem aérea."
+      },
+      "challenge": "Empresas contratam cada frente separada — uma agência para as redes, um piloto para o drone, alguém para o site — e as peças não conversam. O estúdio precisava provar o contrário na própria marca.",
+      "decision": "Começar pelo posicionamento, “da ideia ao ato”, e deixar ele guiar tudo: um símbolo que vira linha de assinatura, um design system com uma cor reservada para a decisão, e um site estático editável por painel próprio.",
+      "deliverables": [
+        "Posicionamento e marca",
+        "Design system (tokens, tipografia, componentes)",
+        "Site em Next.js com painel de edição",
+        "Tipografia cinética e motion"
+      ],
+      "gallery": [
+        {
+          "src": "/images/ideato/brand.webp",
+          "alt": "Parede com grande símbolo verde-lima da Ideato.",
+          "caption": "Marca — imagem ilustrativa"
+        },
+        {
+          "src": "/images/ideato/field.webp",
+          "alt": "Drone sobrevoando um campo dourado ao pôr do sol.",
+          "caption": "Imagem aérea — imagem ilustrativa"
+        }
+      ],
+      "link": {
+        "label": "@ideatostudio no Instagram",
+        "href": "https://instagram.com/ideatostudio"
+      }
+    }
+  ],
+  "ideato": {
+    "kicker": "Uma vertente do meu trabalho",
+    "title1": "Da ideia",
+    "title2": "ao ato.",
+    "text": "O Ideato Studio é onde marca, social, imagem com drone e site saem do mesmo raciocínio. O mesmo traço, agora em formato de estúdio.",
+    "image": "/images/ideato/city.webp",
+    "alt": "Panorama aéreo ao entardecer de uma cidade arborizada.",
+    "cta": "Conhecer o Ideato",
+    "href": "/trabalho/ideato"
+  },
+  "about": {
+    "kicker": "Quem desenha",
+    "title1": "Curioso",
+    "title2": "por ofício.",
+    "lead": "Sou um criador movido pela curiosidade e pelo encantamento das possibilidades.",
+    "body": [
+      "Desde 2017 trabalho imerso no marketing, explorando áreas que vão do design gráfico à fotografia, do audiovisual à modelagem 3D, passando por social media, tráfego pago e web design.",
+      "Por sete anos cuidei sozinho de toda a comunicação de uma imobiliária: planejei, desenhei, filmei, voei e renderizei. Aprendi a olhar a peça e a marca inteira ao mesmo tempo.",
+      "Versátil e inquieto, encontro na tecnologia e na arte uma ponte para dar vida ao que ainda não foi imaginado."
+    ],
+    "image": "/images/retrato.webp",
+    "alt": "Retrato de Fabio Correa sobre fundo cinza, de óculos redondos e camiseta preta, braços cruzados, olhando para o lado.",
+    "education": "Marketing · UniCesumar (cursando)"
+  },
+  "journey": {
+    "kicker": "O caminho",
+    "title1": "Por onde",
+    "title2": "o traço passou.",
+    "intro": "Uma instituição de ensino, uma imobiliária, clientes em paralelo e, agora, um estúdio próprio."
+  },
+  "jobs": [
+    {
+      "period": "Atual",
+      "place": "Ideato Studio",
+      "role": "Fundador",
+      "text": "Estúdio de marca, social, imagem aérea e site, com base em Maringá."
+    },
+    {
+      "period": "2019 – 2026",
+      "place": "Imobiliária Conquist",
+      "role": "Analista de Marketing 360°",
+      "text": "Área conduzida individualmente: rebranding, tráfego pago, social, audiovisual, drone, 3D, site e mídia offline."
+    },
+    {
+      "period": "2017 – 2019",
+      "place": "UniFeitep",
+      "role": "Assistente de Mídias",
+      "text": "Design para redes e materiais institucionais, cobertura de eventos, viagens acadêmicas e feiras de Engenharia e Arquitetura."
+    }
+  ],
+  "freelance": {
+    "title": "Em paralelo, como freelancer",
+    "clients": [
+      {
+        "name": "Lumon Negócios Imobiliários",
+        "scope": "Social media e conteúdo"
+      },
+      {
+        "name": "Clínica Perform",
+        "scope": "Design gráfico e social media"
+      },
+      {
+        "name": "Construtora Tecnológica",
+        "scope": "Audiovisual e conteúdo institucional"
+      },
+      {
+        "name": "Imobiliária Solução",
+        "scope": "Rebranding"
+      }
+    ]
+  },
+  "skills": [
+    {
+      "group": "Design & audiovisual",
+      "items": [
+        "Illustrator",
+        "Photoshop",
+        "After Effects",
+        "Fotografia",
+        "Edição de vídeo",
+        "Pilotagem de drone"
+      ]
+    },
+    {
+      "group": "3D",
+      "items": [
+        "SketchUp",
+        "Lumion"
+      ]
+    },
+    {
+      "group": "Marketing digital",
+      "items": [
+        "Meta Ads",
+        "Google Ads",
+        "SEO",
+        "Gestão de redes",
+        "Estratégia de conteúdo"
+      ]
+    }
+  ],
+  "courses": [
+    {
+      "name": "Identidade Visual",
+      "school": "Estúdio Kimura"
+    },
+    {
+      "name": "Illustrator",
+      "school": "Estúdio Kimura"
+    },
+    {
+      "name": "IA aplicada ao Design",
+      "school": "Estúdio Kimura & Overlens"
+    },
+    {
+      "name": "Inglês B2",
+      "school": "Cebrac Maringá"
+    }
+  ],
+  "contact": {
+    "kicker": "Até logo",
+    "title1": "Obrigado por",
+    "title2": "chegar até aqui.",
+    "text": "Se alguma dessas peças despertou uma ideia ou uma pergunta, vou gostar de conversar."
+  }
+}
