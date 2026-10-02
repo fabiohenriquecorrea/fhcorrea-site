@@ -21,9 +21,9 @@
     }
   },
   "style": {
-    "buttons": "square",
-    "cards": "square",
-    "logoScale": 100
+    "buttons": "soft",
+    "cards": "soft",
+    "logoScale": 143
   },
   "site": {
     "name": "Fabio Correa",
@@ -37,7 +37,7 @@
   "socials": [
     {
       "network": "whatsapp",
-      "url": "5544991571891",
+      "url": "5544991450630",
       "text": "Mandar mensagem"
     },
     {
