@@ -6,3 +6,8 @@ next-env.d.ts
 .DS_Store
 .playwright-mcp
 .claude
+
+# Currículo (fica na pasta, fora do site)
+/Curriculo_Fabio_Correa.pdf
+/curriculo-fabio-correa.html
+/fonts/
