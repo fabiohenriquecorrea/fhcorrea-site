@@ -11,7 +11,7 @@ export function SiteShell({ content, children }: { content: Content; children: R
       <a className="skip" href="#conteudo">
         Pular para o conteúdo
       </a>
-      <Header />
+      <Header heroTone={content.hero.background === "silver" ? "clear-light" : "clear"} />
       <main id="conteudo">{children}</main>
       <Footer content={content} />
       <RevealObserver />

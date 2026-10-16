@@ -15,9 +15,10 @@ const LINKS = [
   { href: "/#contato", label: "Contato" },
 ];
 
-export function Header() {
+/** `heroTone`: tom do menu sobre a abertura, já no HTML inicial (evita piscar antes do JS). */
+export function Header({ heroTone = "clear" }: { heroTone?: "clear" | "clear-light" }) {
   const pathname = usePathname();
-  const [tone, setTone] = useState<Tone>("paper");
+  const [tone, setTone] = useState<Tone>(pathname === "/" ? heroTone : "paper");
   const [open, setOpen] = useState(false);
 
   useEffect(() => {

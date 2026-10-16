@@ -3,9 +3,9 @@
     "mode": "online",
     "construction": {
       "note": "Site em construção",
-      "title1": "Toda marca",
-      "title2": "começa num traço.",
-      "text": "O meu portfólio está saindo do papel. Enquanto isso, me encontre nas redes abaixo.",
+      "title1": "Algo novo",
+      "title2": "está ganhando forma.",
+      "text": "O portfólio está em montagem. Enquanto isso, você me encontra nos contatos abaixo.",
       "image": "/images/work/tecnologica-aplicacoes.webp",
       "opacity": 30,
       "showContact": true
@@ -13,8 +13,8 @@
     "maintenance": {
       "note": "Em manutenção",
       "title1": "Volto",
-      "title2": "já, já.",
-      "text": "Estou fazendo alguns ajustes no site. Enquanto isso, me encontre nas redes abaixo.",
+      "title2": "em instantes.",
+      "text": "Estou ajustando alguns detalhes do site. Enquanto isso, você me encontra nos contatos abaixo.",
       "image": "/images/work/conquist-fachada.webp",
       "opacity": 30,
       "showContact": true
@@ -31,8 +31,8 @@
     "base": "Maringá · PR",
     "since": "2017",
     "email": "fabio@fhcorrea.com.br",
-    "seoTitle": "Fabio Correa — Portfólio",
-    "seoDescription": "O caderno de traços de Fabio Correa: marcas, campanhas, renders e imagens aéreas que começaram num rabisco. Designer em Maringá desde 2017."
+    "seoTitle": "Fabio Correa — Designer em Maringá",
+    "seoDescription": "Portfólio de Fabio Correa: marcas, campanhas, fotografia, vídeo, drone e 3D. Trabalhos feitos a partir de Maringá desde 2017."
   },
   "socials": [
     {
@@ -47,12 +47,12 @@
     }
   ],
   "hero": {
-    "kicker": "Fabio Correa · designer",
-    "title1": "Toda marca",
-    "title2": "começa num",
-    "pill": "traço.",
-    "lead": "Este é o meu caderno de traços. Marcas, campanhas, renders e imagens aéreas que começaram como um rabisco e ganharam o mundo — de 2017 para cá, a partir de Maringá.",
-    "ctaPrimary": "Folhear as peças",
+    "kicker": "Portfólio · Fabio Correa",
+    "title1": "Trabalho com",
+    "title2": "o que se vê",
+    "pill": "primeiro.",
+    "lead": "Marca, fotografia, vídeo, imagem aérea e 3D: tudo aquilo que as pessoas enxergam antes de ler uma palavra. Desde 2017 eu cuido dessa primeira impressão — aqui estão as que mais gostei de fazer.",
+    "ctaPrimary": "Ver os trabalhos",
     "interval": 6,
     "slides": [
       {
@@ -87,10 +87,10 @@
     "background": "slides"
   },
   "work": {
-    "kicker": "As peças",
-    "title1": "Do rabisco",
-    "title2": "ao mundo.",
-    "intro": "Um recorte do que desenhei, fotografei, filmei e renderizei nos últimos anos. Filtre por frente ou abra um projeto para ver o raciocínio por trás de cada peça.",
+    "kicker": "Trabalhos",
+    "title1": "O que já",
+    "title2": "ganhou forma.",
+    "intro": "Marcas, campanhas, renders e imagens aéreas dos últimos anos. Cada card abre o projeto inteiro: o contexto, a decisão e o que saiu dela.",
     "showFilters": true,
     "showFront": true,
     "showTitle": true,
@@ -212,7 +212,7 @@
     "kicker": "Arquivo",
     "title1": "Todos os",
     "title2": "trabalhos.",
-    "intro": "Cada projeto, com o desafio, a decisão e o que foi entregue. Abra um para ver as peças."
+    "intro": "Projeto por projeto: o contexto, a decisão e as peças que nasceram dela."
   },
   "projects": [
     {
@@ -277,7 +277,7 @@
       "slug": "torre-de-tokyo",
       "client": "Torre de Tokyo",
       "short": "Torre de Tokyo",
-      "title": "Torre de Tokyo: um nome que já vende o bairro",
+      "title": "Torre de Tokyo: o bairro como identidade",
       "summary": "Marca e campanha de lançamento para um residencial perto do Parque do Japão, em Maringá.",
       "role": "Marca, 3D e campanha",
       "fronts": [
@@ -347,8 +347,8 @@
       "slug": "ideato",
       "client": "Ideato Studio",
       "short": "Ideato",
-      "title": "Ideato: o estúdio que é uma vertente do meu trabalho",
-      "summary": "Marca, design system e site do meu estúdio: marca, social, imagem aérea e site sob o mesmo raciocínio.",
+      "title": "Ideato: quando o jeito de trabalhar virou estúdio",
+      "summary": "Marca, design system e site do meu estúdio — marca, social, imagem aérea e site sob o mesmo raciocínio.",
       "role": "Fundador · marca, sistema e site",
       "fronts": [
         "Marca",
@@ -385,34 +385,34 @@
     }
   ],
   "ideato": {
-    "kicker": "Uma vertente do meu trabalho",
+    "kicker": "Um estúdio",
     "title1": "Da ideia",
     "title2": "ao ato.",
-    "text": "O Ideato Studio é onde marca, social, imagem com drone e site saem do mesmo raciocínio. O mesmo traço, agora em formato de estúdio.",
+    "text": "Com o tempo, esse jeito de trabalhar virou estúdio. O Ideato junta marca, social, imagem aérea e site no mesmo raciocínio — para que tudo o que uma empresa mostra diga a mesma coisa.",
     "image": "/uploads/murdifsx-fundo-cidade.webp",
     "alt": "Panorama aéreo ao entardecer de uma cidade arborizada.",
     "cta": "Conhecer o Ideato",
     "href": "/trabalho/ideato"
   },
   "about": {
-    "kicker": "Quem desenha",
-    "title1": "Curioso",
-    "title2": "por ofício.",
-    "lead": "Sou um criador movido pela curiosidade e pelo encantamento das possibilidades.",
+    "kicker": "Quem está por trás",
+    "title1": "Curiosidade",
+    "title2": "é método.",
+    "lead": "Comecei pelo design e fui puxando os fios em volta: a foto que a marca pedia, o vídeo que a foto sugeria, o drone que mostrava o que ninguém via do chão.",
     "body": [
-      "Desde 2017 trabalho imerso no marketing, explorando áreas que vão do design gráfico à fotografia, do audiovisual à modelagem 3D, passando por social media, tráfego pago e web design.",
-      "Por sete anos cuidei sozinho de toda a comunicação de uma imobiliária: planejei, desenhei, filmei, voei e renderizei. Aprendi a olhar a peça e a marca inteira ao mesmo tempo.",
-      "Versátil e inquieto, encontro na tecnologia e na arte uma ponte para dar vida ao que ainda não foi imaginado."
+      "Em 2017, numa equipe de comunicação acadêmica, aprendi a fazer um pouco de tudo para a mensagem chegar: peça para as redes, cobertura de evento, vídeo de feira.",
+      "Depois vieram sete anos cuidando sozinho de toda a comunicação de uma imobiliária. Planejar, desenhar, fotografar, voar e renderizar na mesma semana me ensinou a enxergar a peça e a marca inteira ao mesmo tempo.",
+      "Hoje sigo em Maringá, entre clientes, o Ideato e a graduação em Marketing — ainda atrás do próximo fio."
     ],
     "image": "/uploads/murf8cb2-site-fabio.jpg",
     "alt": "Retrato de Fabio Correa sobre fundo cinza, de óculos redondos e camiseta preta, braços cruzados, olhando para o lado.",
     "education": "Marketing · UniCesumar (cursando)"
   },
   "journey": {
-    "kicker": "O caminho",
-    "title1": "Por onde",
-    "title2": "o traço passou.",
-    "intro": "Uma instituição de ensino, uma imobiliária, clientes em paralelo e, agora, um estúdio próprio."
+    "kicker": "Trajetória",
+    "title1": "Cada etapa",
+    "title2": "somou uma ferramenta.",
+    "intro": "De uma equipe de comunicação acadêmica a um estúdio próprio, passando por sete anos de marketing feito de ponta a ponta."
   },
   "jobs": [
     {
@@ -435,7 +435,7 @@
     }
   ],
   "freelance": {
-    "title": "Em paralelo, como freelancer",
+    "title": "Em paralelo",
     "clients": [
       {
         "name": "Lumon Negócios Imobiliários",
@@ -504,9 +504,9 @@
     }
   ],
   "contact": {
-    "kicker": "Até logo",
-    "title1": "Obrigado por",
-    "title2": "chegar até aqui.",
-    "text": "Se alguma dessas peças despertou uma ideia ou uma pergunta, vou gostar de conversar."
+    "kicker": "Contato",
+    "title1": "Obrigado",
+    "title2": "pela visita.",
+    "text": "Se algum trabalho chamou sua atenção — ou se você só quiser saber como ele foi feito — me escreva."
   }
 }
