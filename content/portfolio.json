@@ -94,7 +94,7 @@
     "showFilters": true,
     "showFront": true,
     "showTitle": true,
-    "limit": 16,
+    "limit": 19,
     "showMore": true,
     "moreLabel": "Ver todos os trabalhos"
   },
@@ -254,6 +254,39 @@
       "hidden": false,
       "fit": "cover",
       "focus": "center"
+    },
+    {
+      "project": "lumon",
+      "front": "Marca",
+      "title": "Marca Lumon",
+      "image": "/images/work/lumon-logotipo.webp",
+      "alt": "Logotipo da Lumon em branco sobre azul profundo.",
+      "size": "sm",
+      "hidden": false,
+      "fit": "cover",
+      "focus": "center"
+    },
+    {
+      "project": "lumon",
+      "front": "Marca",
+      "title": "Campanha Lumon",
+      "image": "/images/work/lumon-campanha-extraordinario.webp",
+      "alt": "Mulher sorrindo em luz natural com o texto “Abrindo portas para o extraordinário”.",
+      "size": "wide",
+      "hidden": false,
+      "fit": "cover",
+      "focus": "center"
+    },
+    {
+      "project": "lumon",
+      "front": "Marca",
+      "title": "Papelaria Lumon",
+      "image": "/images/work/lumon-papelaria.webp",
+      "alt": "Logotipo da Lumon em cobre com relevo sobre papel.",
+      "size": "sm",
+      "hidden": false,
+      "fit": "cover",
+      "focus": "right"
     }
   ],
   "archive": {
@@ -1019,6 +1052,81 @@
           "vertical": false
         }
       ]
+    },
+    {
+      "slug": "lumon",
+      "client": "Lumon Negócios Imobiliários",
+      "short": "Lumon",
+      "title": "Lumon: abrindo portas para o extraordinário",
+      "summary": "Identidade visual para uma imobiliária que trata cada patrimônio como se fosse seu — sóbria, acolhedora e feita para durar.",
+      "role": "Identidade visual",
+      "fronts": [
+        "Marca"
+      ],
+      "cover": {
+        "src": "/images/work/lumon-capa.webp",
+        "alt": "Vista de cima de uma sala aconchegante com uma mulher sentada no tapete e o logotipo da Lumon em branco.",
+        "ratio": "original",
+        "fit": "cover",
+        "focus": "center"
+      },
+      "challenge": "Negociar um imóvel é lidar com o patrimônio de uma vida. A Lumon precisava de uma marca que passasse a segurança de quem cuida disso com seriedade — sem cair no visual frio e genérico do mercado imobiliário.",
+      "decision": "Um símbolo de linhas finas, como um esboço de casas que se sobrepõem, ao lado de um nome em letras leves e espaçadas. A paleta — areia clara, branco, azul profundo, verde mineral e cobre fosco — vem dos materiais de uma casa bem cuidada, e as imagens apostam em luz natural e gente à vontade. A voz completa o resto: “tratando do seu patrimônio como se fosse o nosso”.",
+      "deliverables": [
+        "Símbolo e logotipo",
+        "Paleta de cores",
+        "Linguagem de imagem",
+        "Peças de campanha",
+        "Aplicação em papelaria"
+      ],
+      "gallery": [
+        {
+          "src": "/images/work/lumon-logotipo.webp",
+          "alt": "Logotipo da Lumon Negócios Imobiliários em branco sobre azul profundo.",
+          "caption": "Assinatura",
+          "wide": true,
+          "ratio": "original",
+          "fit": "cover",
+          "focus": "center"
+        },
+        {
+          "src": "/images/work/lumon-cores.webp",
+          "alt": "Paleta da Lumon: Areia Clara, Branco Puro, Azul Profundo, Verde Mineral e Cobre Fosco.",
+          "caption": "Cores",
+          "wide": true,
+          "ratio": "original",
+          "fit": "cover",
+          "focus": "center"
+        },
+        {
+          "src": "/images/work/lumon-campanha-patrimonio.webp",
+          "alt": "Homem lendo jornal numa poltrona em sala clara, com o texto “Tratando do seu patrimônio, como se fosse o nosso”.",
+          "caption": "Campanha",
+          "wide": false,
+          "ratio": "original",
+          "fit": "cover",
+          "focus": "center"
+        },
+        {
+          "src": "/images/work/lumon-campanha-extraordinario.webp",
+          "alt": "Retrato de mulher sorrindo em luz natural, com o texto “Abrindo portas para o extraordinário”.",
+          "caption": "Campanha",
+          "wide": false,
+          "ratio": "original",
+          "fit": "cover",
+          "focus": "center"
+        },
+        {
+          "src": "/images/work/lumon-papelaria.webp",
+          "alt": "Logotipo da Lumon aplicado em cobre com relevo sobre papel cinza.",
+          "caption": "Papelaria",
+          "wide": true,
+          "ratio": "original",
+          "fit": "cover",
+          "focus": "center"
+        }
+      ],
+      "videos": []
     }
   ],
   "ideato": {
