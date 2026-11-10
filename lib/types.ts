@@ -34,7 +34,16 @@ export type Project = {
   decision: string;
   deliverables: string[];
   gallery: Image[];
+  /** vídeos do projeto: link do Vimeo, YouTube, arquivo .mp4 ou qualquer endereço */
+  videos?: Video[];
   link?: { label: string; href: string };
+};
+
+export type Video = {
+  url: string;
+  title?: string;
+  /** vertical 9:16 (Reels, Shorts, stories) */
+  vertical?: boolean;
 };
 
 /** Imagem, vídeo (.mp4/.webm) ou link do Vimeo; `poster` é a capa enquanto o vídeo carrega. */

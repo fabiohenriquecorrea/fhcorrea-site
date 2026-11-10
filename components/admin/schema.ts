@@ -375,6 +375,29 @@ export function buildPages(content: Content): Page[] {
         ],
       },
       {
+        id: "videos",
+        label: "Vídeos",
+        target: `case:${p.slug}:videos`,
+        root: `projects.${i}`,
+        note: "Aparecem antes da galeria. Sem vídeos, a seção não aparece.",
+        fields: [
+          {
+            kind: "list",
+            key: "videos",
+            label: "Vídeos do projeto",
+            addLabel: "Adicionar vídeo",
+            hint: "Cole o link do Vimeo ou do YouTube (inclusive Shorts): o vídeo toca dentro da página. Outros links viram um botão “Assistir”.",
+            itemTitle: (v) => (v.title as string) || (v.url as string) || "Vídeo sem link",
+            fields: [
+              { kind: "text", key: "url", label: "Link do vídeo", placeholder: "https://vimeo.com/123456789" },
+              { kind: "text", key: "title", label: "Título ou legenda", hint: "Opcional. Ex.: Filme de lançamento." },
+              { kind: "toggle", key: "vertical", label: "Vídeo vertical (Reels, Shorts, stories)" },
+            ],
+            create: () => ({ url: "", title: "", vertical: false }),
+          },
+        ],
+      },
+      {
         id: "galeria",
         label: "Galeria",
         target: `case:${p.slug}:galeria`,
@@ -503,6 +526,7 @@ export function newProject(): Project {
     decision: "",
     deliverables: [],
     gallery: [],
+    videos: [],
   };
 }
 

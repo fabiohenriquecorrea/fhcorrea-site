@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { ArrowLeft, ArrowRight, ArrowUpRight } from "@/components/Icons";
+import { ProjectVideos } from "@/components/ProjectVideos";
 import { resolveMedia } from "@/lib/media-url";
 import type { Content } from "@/lib/types";
 
@@ -93,6 +94,12 @@ export function ProjectView({ content, slug }: { content: Content; slug: string 
           )}
         </div>
       </section>
+
+      {(p.videos?.length ?? 0) > 0 && (
+        <section className="wrap case-videos-section" aria-label="Vídeos" data-edit={`case:${p.slug}:videos`}>
+          <ProjectVideos videos={p.videos!} project={p.client} />
+        </section>
+      )}
 
       {p.gallery.length > 0 && (
         <section className="wrap case-gallery" aria-label="Galeria" data-edit={`case:${p.slug}:galeria`}>

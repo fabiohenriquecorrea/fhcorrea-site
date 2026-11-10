@@ -2527,6 +2527,107 @@ html:not(.js) .footer-mark path {
   }
 }
 
+/* Vídeos do projeto (Vimeo, YouTube, .mp4 ou link) */
+.case-videos-section {
+  margin-bottom: clamp(48px, 6vw, 88px);
+}
+.case-videos {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  gap: 8px;
+}
+.case-video {
+  grid-column: 1 / -1;
+  margin: 0;
+}
+.case-video.is-vertical {
+  grid-column: span 2;
+}
+.case-video-frame {
+  position: relative;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  background: var(--ink-fixed);
+  border-radius: var(--r-card, 0);
+}
+.case-video.is-vertical .case-video-frame {
+  aspect-ratio: 9 / 16;
+}
+.case-video-frame iframe,
+.case-video-frame video {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  object-fit: contain;
+  background: var(--ink-fixed);
+}
+.case-video figcaption {
+  margin-top: 10px;
+}
+.case-video-link {
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  align-items: center;
+  gap: var(--s5);
+  padding: var(--s5);
+  border: 1px solid var(--paper-line);
+  border-radius: var(--r-card, 0);
+  text-decoration: none;
+  transition:
+    background-color 200ms ease,
+    border-color 200ms ease;
+}
+.case-video-link strong {
+  display: block;
+  font-weight: normal;
+  font-variation-settings: "wght" 700;
+  font-size: 18px;
+  margin-bottom: 4px;
+}
+.case-video-link > svg {
+  width: 16px;
+  height: 16px;
+  transition: transform 200ms var(--ease-out);
+}
+.case-video-play {
+  display: grid;
+  place-items: center;
+  width: 48px;
+  height: 48px;
+  border-radius: min(var(--r-btn, 0), 999px);
+  background: var(--ceu);
+  color: var(--ink-fixed);
+}
+.case-video-play svg {
+  width: 20px;
+  height: 20px;
+  fill: currentColor;
+}
+@media (hover: hover) and (pointer: fine) {
+  .case-video-link:hover {
+    border-color: var(--ink);
+  }
+  .case-video-link:hover > svg {
+    transform: translate(3px, -3px);
+  }
+}
+@media (max-width: 900px) {
+  .case-video.is-vertical {
+    grid-column: span 3;
+  }
+}
+@media (max-width: 560px) {
+  .case-video.is-vertical {
+    grid-column: 1 / -1;
+    max-width: 360px;
+    justify-self: center;
+    width: 100%;
+  }
+}
+
 /* Revelação ao rolar (só com JS ativo) */
 .js [data-reveal] {
   opacity: 0;

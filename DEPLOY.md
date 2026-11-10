@@ -30,7 +30,9 @@ Mesmo fluxo do site da Ideato. Custo mensal: **R$ 0** (você paga só o domínio
 
 ## O painel
 
-**Páginas:** Início (Abertura, Peças, Ideato, Sobre, Caminho, Contato), Todos os trabalhos e um item por projeto (Capa, Conteúdo, Galeria).
+**Páginas:** Início (Abertura, Peças, Ideato, Sobre, Caminho, Contato), Todos os trabalhos e um item por projeto (Capa, Conteúdo, Vídeos, Galeria).
+
+**Vídeos nos projetos:** cole o link do Vimeo ou do YouTube (inclusive Shorts) e o vídeo toca dentro da página. Arquivos .mp4 também tocam; qualquer outro link vira um botão “Assistir”. Marque “vertical” para Reels, Shorts e stories.
 
 **Site**
 - **Status do site:** no ar, em construção ou em manutenção, cada tela com texto e imagem próprios. Vale depois de **Publicar**.
