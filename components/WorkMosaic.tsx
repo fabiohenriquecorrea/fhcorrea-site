@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { useMemo, useState } from "react";
 import { flushSync } from "react-dom";
+import { fitStyle } from "@/lib/framing";
 import { resolveMedia } from "@/lib/media-url";
 import { FRONTS, type Content, type Front, type Piece } from "@/lib/types";
 import { ArrowRight, ArrowUpRight } from "./Icons";
@@ -73,12 +74,13 @@ export function WorkMosaic({
             style={{ viewTransitionName: `tile-${p.image.replace(/\W/g, "")}`.slice(0, 60), ["--i" as string]: i }}
           >
             <Link href={`/trabalho/${p.project}`} className="tile-link" aria-label={labels ? undefined : `${p.title} — ${clients[p.project] ?? ""}`}>
-              <div className="tile-media">
+              <div className={`tile-media ${p.fit === "contain" ? "is-contain" : ""}`}>
                 <Image
                   src={resolveMedia(p.image)}
                   alt={p.alt}
                   fill
                   sizes={p.size === "lg" || p.size === "wide" ? "(max-width: 1000px) 100vw, 50vw" : "(max-width: 1000px) 50vw, 25vw"}
+                  style={fitStyle(p)}
                 />
               </div>
               {labels && (

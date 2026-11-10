@@ -3,7 +3,21 @@ export type Front = (typeof FRONTS)[number];
 
 export type Size = "sm" | "wide" | "tall" | "lg";
 
-export type Image = { src: string; alt: string; caption?: string; wide?: boolean };
+export type Ratio = "original" | "16:9" | "4:3" | "1:1" | "4:5" | "3:4" | "9:16";
+export type Fit = "cover" | "contain";
+export type Focus = "center" | "top" | "bottom" | "left" | "right";
+
+/** Ajustes de enquadramento de uma imagem (todos opcionais). */
+export type Framing = {
+  /** proporção do quadro; "original" (padrão) = a da própria imagem, sem corte */
+  ratio?: Ratio;
+  /** cover = preenche o quadro (pode cortar); contain = mostra a imagem inteira */
+  fit?: Fit;
+  /** o que fica visível quando há corte */
+  focus?: Focus;
+};
+
+export type Image = { src: string; alt: string; caption?: string; wide?: boolean } & Framing;
 
 export const isVideo = (src: string) => /\.(mp4|webm|mov)$/i.test(src);
 
@@ -17,6 +31,8 @@ export type Piece = {
   size: Size;
   /** fica cadastrada, mas não aparece no site */
   hidden?: boolean;
+  fit?: Fit;
+  focus?: Focus;
 };
 
 export type Project = {

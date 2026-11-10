@@ -2628,6 +2628,38 @@ html:not(.js) .footer-mark path {
   }
 }
 
+/* Enquadramento das imagens dos projetos (ajustável no painel) */
+.case-media .frame.is-natural,
+.case-gallery .frame.is-natural,
+.case-gallery .is-wide .frame.is-natural {
+  aspect-ratio: auto;
+  height: auto;
+}
+.frame.is-natural > img {
+  position: static;
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.case-media .frame:not(.is-natural) > img,
+.case-gallery .frame:not(.is-natural) > img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+.frame.is-contain,
+.tile-media.is-contain {
+  background: var(--paper-sunken);
+}
+.frame.is-empty {
+  aspect-ratio: 16 / 9;
+  background: var(--paper-sunken);
+}
+.case-gallery {
+  align-items: start;
+}
+
 /* Revelação ao rolar (só com JS ativo) */
 .js [data-reveal] {
   opacity: 0;

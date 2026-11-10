@@ -250,7 +250,8 @@ export function FieldView({
           />
         </label>
       );
-    case "select":
+    case "select": {
+      const current = (value as string | undefined) ?? field.default;
       return (
         <div className="ed-field">
           <span className="ed-label">{field.label}</span>
@@ -260,8 +261,8 @@ export function FieldView({
                 key={o.value}
                 type="button"
                 role="radio"
-                aria-checked={value === o.value}
-                aria-pressed={value === o.value}
+                aria-checked={current === o.value}
+                aria-pressed={current === o.value}
                 onClick={() => onChange(field.key, o.value)}
               >
                 {o.label}
@@ -271,6 +272,7 @@ export function FieldView({
           {field.hint && <span className="ed-hint">{field.hint}</span>}
         </div>
       );
+    }
     case "multi": {
       const list = (value as string[]) ?? [];
       return (

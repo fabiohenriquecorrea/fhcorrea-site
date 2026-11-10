@@ -3,6 +3,7 @@ import Link from "next/link";
 import { Eyebrow } from "@/components/Eyebrow";
 import { ArrowLeft, ArrowUpRight } from "@/components/Icons";
 import { VariableProximity } from "@/components/VariableProximity";
+import { fitStyle } from "@/lib/framing";
 import { resolveMedia } from "@/lib/media-url";
 import type { Content } from "@/lib/types";
 
@@ -41,7 +42,7 @@ export function ArchiveView({ content }: { content: Content }) {
               <Link href={`/trabalho/${p.slug}`} className="archive-card">
                 <span className="archive-thumb">
                   {p.cover.src && (
-                    <Image src={resolveMedia(p.cover.src)} alt={p.cover.alt} fill sizes="(max-width: 700px) 100vw, (max-width: 1100px) 50vw, 33vw" />
+                    <Image src={resolveMedia(p.cover.src)} alt={p.cover.alt} fill sizes="(max-width: 700px) 100vw, (max-width: 1100px) 50vw, 33vw" style={fitStyle(p.cover)} />
                   )}
                   <span className="tile-go" aria-hidden="true">
                     <ArrowUpRight />

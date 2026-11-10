@@ -7,7 +7,7 @@ export type Field =
   | { kind: "number"; key: string; label: string; min: number; max: number; suffix?: string; hint?: string }
   | { kind: "range"; key: string; label: string; min: number; max: number; suffix?: string; hint?: string }
   | { kind: "media"; key: string; label: string; hint?: string; vimeo?: boolean }
-  | { kind: "select"; key: string; label: string; options: { value: string; label: string }[]; hint?: string }
+  | { kind: "select"; key: string; label: string; options: { value: string; label: string }[]; hint?: string; default?: string }
   | { kind: "multi"; key: string; label: string; options: { value: string; label: string }[]; hint?: string }
   | { kind: "toggle"; key: string; label: string; hint?: string }
   | { kind: "mode"; key: string; label: string }
@@ -57,6 +57,39 @@ const SIZES = [
   { value: "lg", label: "Destaque 2×2" },
 ];
 const fronts = FRONTS.map((f) => ({ value: f, label: f }));
+const RATIOS = [
+  { value: "original", label: "Original" },
+  { value: "16:9", label: "16:9" },
+  { value: "4:3", label: "4:3" },
+  { value: "1:1", label: "1:1" },
+  { value: "4:5", label: "4:5" },
+  { value: "3:4", label: "3:4" },
+  { value: "9:16", label: "9:16" },
+];
+const FITS = [
+  { value: "cover", label: "Preencher o quadro" },
+  { value: "contain", label: "Mostrar inteira" },
+];
+const FOCUSES = [
+  { value: "center", label: "Centro" },
+  { value: "top", label: "Topo" },
+  { value: "bottom", label: "Base" },
+  { value: "left", label: "Esquerda" },
+  { value: "right", label: "Direita" },
+];
+/** Proporção, encaixe e foco de uma imagem (prefixo = "cover." para a capa). */
+const framing = (prefix = ""): Field[] => [
+  {
+    kind: "select",
+    key: `${prefix}ratio`,
+    label: "Proporção",
+    options: RATIOS,
+    default: "original",
+    hint: "Original mostra a imagem como ela é, sem corte. As outras criam um quadro fixo.",
+  },
+  { kind: "select", key: `${prefix}fit`, label: "Encaixe no quadro", options: FITS, default: "cover", hint: "Só vale com proporção diferente de Original." },
+  { kind: "select", key: `${prefix}focus`, label: "Ponto de foco", options: FOCUSES, default: "center", hint: "O que fica visível quando a imagem é cortada." },
+];
 const alt = (key = "alt"): Field => ({
   kind: "text",
   key,
@@ -165,6 +198,15 @@ export function buildPages(content: Content): Page[] {
               { kind: "text", key: "title", label: "Título" },
               { kind: "select", key: "front", label: "Frente (filtro)", options: fronts },
               { kind: "select", key: "size", label: "Tamanho no mosaico", options: SIZES },
+              {
+                kind: "select",
+                key: "fit",
+                label: "Encaixe no card",
+                options: FITS,
+                default: "cover",
+                hint: "Preencher deixa o card cheio (pode cortar). Mostrar inteira coloca a imagem toda, com fundo neutro.",
+              },
+              { kind: "select", key: "focus", label: "Ponto de foco", options: FOCUSES, default: "center", hint: "O que fica visível quando a imagem é cortada." },
               { kind: "select", key: "project", label: "Abre o projeto", options: projectOptions },
               alt(),
             ],
@@ -357,6 +399,7 @@ export function buildPages(content: Content): Page[] {
           { kind: "multi", key: "fronts", label: "Frentes", options: fronts },
           { kind: "media", key: "cover.src", label: "Imagem de capa" },
           alt("cover.alt"),
+          ...framing("cover."),
           { kind: "text", key: "slug", label: "Endereço", hint: "Ex.: conquist → /trabalho/conquist. Só letras, números e hífen." },
         ],
       },
@@ -415,9 +458,10 @@ export function buildPages(content: Content): Page[] {
               { kind: "media", key: "src", label: "Imagem" },
               { kind: "text", key: "caption", label: "Legenda" },
               { kind: "toggle", key: "wide", label: "Ocupar a linha inteira" },
+              ...framing(),
               alt(),
             ],
-            create: () => ({ src: "", alt: "", caption: "", wide: false }),
+            create: () => ({ src: "", alt: "", caption: "", wide: false, ratio: "original", fit: "cover", focus: "center" }),
           },
         ],
       },

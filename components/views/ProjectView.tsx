@@ -1,7 +1,9 @@
 import Image from "next/image";
 import Link from "next/link";
 import { ArrowLeft, ArrowRight, ArrowUpRight } from "@/components/Icons";
+import { FramedImage } from "@/components/FramedImage";
 import { ProjectVideos } from "@/components/ProjectVideos";
+import { fitStyle } from "@/lib/framing";
 import { resolveMedia } from "@/lib/media-url";
 import type { Content } from "@/lib/types";
 
@@ -61,11 +63,7 @@ export function ProjectView({ content, slug }: { content: Content; slug: string 
 
       <div className="wrap case-cover" data-edit={`case:${p.slug}:capa`}>
         <figure className="case-media">
-          <div className="frame">
-            {p.cover.src && (
-              <Image src={resolveMedia(p.cover.src)} alt={p.cover.alt} fill priority sizes="(max-width: 1440px) 100vw, 1312px" />
-            )}
-          </div>
+          <FramedImage image={p.cover} priority />
         </figure>
       </div>
 
@@ -105,16 +103,7 @@ export function ProjectView({ content, slug }: { content: Content; slug: string 
         <section className="wrap case-gallery" aria-label="Galeria" data-edit={`case:${p.slug}:galeria`}>
           {p.gallery.map((g, i) => (
             <figure key={`${g.src}-${i}`} className={g.wide ? "is-wide" : undefined} data-reveal>
-              <div className="frame">
-                {g.src && (
-                  <Image
-                    src={resolveMedia(g.src)}
-                    alt={g.alt}
-                    fill
-                    sizes={g.wide ? "(max-width: 1440px) 100vw, 1312px" : "(max-width: 800px) 100vw, 650px"}
-                  />
-                )}
-              </div>
+              <FramedImage image={g} />
               {g.caption && <figcaption className="t-caption">{g.caption}</figcaption>}
             </figure>
           ))}
@@ -133,7 +122,7 @@ export function ProjectView({ content, slug }: { content: Content; slug: string 
         <div className="wrap case-next-wrap">
           <Link href={`/trabalho/${next.slug}`} className="case-next">
             <span className="case-next-thumb" aria-hidden="true">
-              {next.cover.src && <Image src={resolveMedia(next.cover.src)} alt="" fill sizes="160px" />}
+              {next.cover.src && <Image src={resolveMedia(next.cover.src)} alt="" fill sizes="160px" style={fitStyle(next.cover)} />}
             </span>
             <div>
               <span className="label">Próximo projeto · {next.fronts.join(" · ")}</span>
