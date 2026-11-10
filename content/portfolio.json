@@ -94,7 +94,7 @@
     "showFilters": true,
     "showFront": true,
     "showTitle": true,
-    "limit": 11,
+    "limit": 12,
     "showMore": true,
     "moreLabel": "Ver todos os trabalhos"
   },
@@ -188,6 +188,28 @@
       "alt": "Logotipo Tecnológica Construtora em bege sobre verde escuro.",
       "size": "sm",
       "hidden": false
+    },
+    {
+      "project": "perform",
+      "front": "Marca",
+      "title": "Identidade Perform",
+      "image": "/images/work/perform-campanha-autoestima.webp",
+      "alt": "Peça de campanha da Perform com mulher tocando o rosto.",
+      "size": "wide",
+      "hidden": false,
+      "fit": "cover",
+      "focus": "center"
+    },
+    {
+      "project": "residencial-diamante",
+      "front": "Marca",
+      "title": "E-book Diamante",
+      "image": "/images/work/diamante-apresentacao.webp",
+      "alt": "Página azul do e-book do Residencial Diamante com mulher segurando uma chave.",
+      "size": "sm",
+      "hidden": false,
+      "fit": "cover",
+      "focus": "right"
     }
   ],
   "archive": {
@@ -376,6 +398,220 @@
           "wide": false
         }
       ]
+    },
+    {
+      "slug": "perform",
+      "client": "Perform — Odonto & Estética Avançada",
+      "short": "Perform",
+      "title": "Perform: elegância que acolhe",
+      "summary": "Identidade visual para uma clínica de odontologia e estética avançada em Maringá — do símbolo ao enxoval da sala de atendimento.",
+      "role": "Identidade visual",
+      "fronts": [
+        "Marca"
+      ],
+      "cover": {
+        "src": "/images/work/perform-cartoes.webp",
+        "alt": "Cartões de visita da Perform: um cartão branco com o nome da profissional sobre vários cartões bege com o logotipo em dourado.",
+        "ratio": "original",
+        "fit": "cover",
+        "focus": "center"
+      },
+      "challenge": "Uma clínica que une odontologia e estética avançada precisava de uma marca à altura do cuidado que oferece: sofisticada sem parecer distante, e clara o bastante para funcionar do letreiro ao enxoval.",
+      "decision": "Partir de quatro atributos — convidativa, sofisticada, elegante e clean — e traduzi-los num símbolo de traço único e leve, na tipografia Fahkwang e numa paleta de dourado, caramelo e cinza sobre fundo areia. O mesmo traço vira padronagem nos tecidos e assina cada peça.",
+      "deliverables": [
+        "Símbolo e logotipo",
+        "Paleta de cores e tipografia",
+        "Peças de campanha",
+        "Cartões de visita",
+        "Aplicações no enxoval: faixa, máscara e roupão"
+      ],
+      "gallery": [
+        {
+          "src": "/images/work/perform-logotipo.webp",
+          "alt": "Logotipo da Perform: símbolo de traço único em dourado ao lado do nome em cinza, com a linha “Odonto & Estética Avançada”.",
+          "caption": "Assinatura",
+          "wide": true,
+          "ratio": "original",
+          "fit": "cover",
+          "focus": "center"
+        },
+        {
+          "src": "/images/work/perform-campanha-autoestima.webp",
+          "alt": "Peça de campanha com mulher tocando o rosto e o texto “Tudo o que a sua autoestima precisa em um só lugar”.",
+          "caption": "Campanha",
+          "wide": false,
+          "ratio": "original",
+          "fit": "cover",
+          "focus": "center"
+        },
+        {
+          "src": "/images/work/perform-campanha-estetica.webp",
+          "alt": "Peça de campanha com profissional em atendimento estético e o texto “A estética avançada a serviço da sua beleza”.",
+          "caption": "Campanha",
+          "wide": false,
+          "ratio": "original",
+          "fit": "cover",
+          "focus": "center"
+        },
+        {
+          "src": "/images/work/perform-tipografia-cores.webp",
+          "alt": "Tipografia Fahkwang e paleta da marca: dourado, caramelo, cinza e fundo areia.",
+          "caption": "Tipografia e cores",
+          "wide": true,
+          "ratio": "original",
+          "fit": "cover",
+          "focus": "center"
+        },
+        {
+          "src": "/images/work/perform-faixa.webp",
+          "alt": "Faixa de cabelo felpuda branca com etiqueta da Perform e padronagem do símbolo no avesso.",
+          "caption": "Enxoval",
+          "wide": false,
+          "ratio": "original",
+          "fit": "cover",
+          "focus": "center"
+        },
+        {
+          "src": "/images/work/perform-enxoval.webp",
+          "alt": "Máscaras de descanso bege com o logotipo e roupão branco com o símbolo bordado.",
+          "caption": "Enxoval",
+          "wide": false,
+          "ratio": "original",
+          "fit": "cover",
+          "focus": "center"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "slug": "residencial-diamante",
+      "client": "Residencial Diamante",
+      "short": "Diamante",
+      "title": "Residencial Diamante: o primeiro imóvel, página por página",
+      "summary": "E-book de vendas de um residencial em Paiçandu pelo Minha Casa Minha Vida — plantas, ambientes, localização e quadras num só material, com vendas pela Conquist.",
+      "role": "E-book de vendas",
+      "fronts": [
+        "Marca",
+        "3D"
+      ],
+      "cover": {
+        "src": "/images/work/diamante-apresentacao.webp",
+        "alt": "Página do e-book em azul com o logotipo do Residencial Diamante e uma mulher sorrindo segurando uma chave.",
+        "ratio": "original",
+        "fit": "cover",
+        "focus": "center"
+      },
+      "challenge": "Um residencial com quatro etapas e 200 casas precisava de um material que o corretor pudesse mandar pelo WhatsApp e que respondesse sozinho às perguntas de quem vai comprar o primeiro imóvel: quanto mede, como é por dentro, onde fica e qual casa é a minha.",
+      "decision": "Organizar o e-book como uma visita: primeiro a promessa e os subsídios, depois as plantas com as medidas em destaque, os ambientes um a um, o mapa do bairro e, por fim, a implantação de cada etapa com as casas numeradas. O azul do Diamante amarra todas as páginas e conversa com a marca da Conquist.",
+      "deliverables": [
+        "E-book de vendas com 18 páginas",
+        "Plantas humanizadas",
+        "Imagens da fachada e dos ambientes",
+        "Mapa de localização",
+        "Implantação das quadras por etapa"
+      ],
+      "gallery": [
+        {
+          "src": "/images/work/diamante-capa.webp",
+          "alt": "Capa do e-book com o logotipo do Residencial Diamante e os selos COHAPAR, Minha Casa Minha Vida, Caixa e Conquist.",
+          "caption": "Capa",
+          "wide": true,
+          "ratio": "original",
+          "fit": "cover",
+          "focus": "center"
+        },
+        {
+          "src": "/images/work/diamante-plantas-intro.webp",
+          "alt": "Página “Escolha a planta que combina com você” com casal segurando chaves e selos de desconto e subsídio.",
+          "caption": "Abertura das plantas",
+          "wide": true,
+          "ratio": "original",
+          "fit": "cover",
+          "focus": "center"
+        },
+        {
+          "src": "/images/work/diamante-planta-1.webp",
+          "alt": "Planta humanizada tipo 1 e 2, com 69,65 m², terreno de 140 m² e 2 quartos.",
+          "caption": "Planta tipo 1 e 2",
+          "wide": false,
+          "ratio": "original",
+          "fit": "cover",
+          "focus": "center"
+        },
+        {
+          "src": "/images/work/diamante-planta-2.webp",
+          "alt": "Planta humanizada tipo 3 e 4, com 69,91 m², terreno de cerca de 260 m² e 2 quartos.",
+          "caption": "Planta tipo 3 e 4",
+          "wide": false,
+          "ratio": "original",
+          "fit": "cover",
+          "focus": "center"
+        },
+        {
+          "src": "/images/work/diamante-fachada.webp",
+          "alt": "Imagem da fachada de uma casa térrea cinza com gramado na frente.",
+          "caption": "Fachada",
+          "wide": true,
+          "ratio": "original",
+          "fit": "cover",
+          "focus": "center"
+        },
+        {
+          "src": "/images/work/diamante-cozinha.webp",
+          "alt": "Imagem da cozinha planejada em cinza com geladeira inox e mesa redonda ao fundo.",
+          "caption": "Cozinha",
+          "wide": false,
+          "ratio": "original",
+          "fit": "cover",
+          "focus": "center"
+        },
+        {
+          "src": "/images/work/diamante-sala.webp",
+          "alt": "Imagem da sala com sofá claro, painel de TV branco e janela com cortinas.",
+          "caption": "Sala",
+          "wide": false,
+          "ratio": "original",
+          "fit": "cover",
+          "focus": "center"
+        },
+        {
+          "src": "/images/work/diamante-quarto.webp",
+          "alt": "Imagem do quarto de casal com cabeceira de madeira, escrivaninha e ar-condicionado.",
+          "caption": "Quarto",
+          "wide": false,
+          "ratio": "original",
+          "fit": "cover",
+          "focus": "center"
+        },
+        {
+          "src": "/images/work/diamante-banheiro.webp",
+          "alt": "Imagem do banheiro com bancada em pedra escura, cuba branca e espelho iluminado.",
+          "caption": "Banheiro",
+          "wide": false,
+          "ratio": "original",
+          "fit": "cover",
+          "focus": "center"
+        },
+        {
+          "src": "/images/work/diamante-localizacao.webp",
+          "alt": "Mapa de localização do residencial no Jardim Diamante, em Paiçandu, com a Avenida Ivaí e a PR 323.",
+          "caption": "Localização",
+          "wide": false,
+          "ratio": "original",
+          "fit": "cover",
+          "focus": "center"
+        },
+        {
+          "src": "/images/work/diamante-implantacao.webp",
+          "alt": "Implantação da etapa I do residencial, com 44 casas numeradas na quadra 07.",
+          "caption": "Implantação por etapa",
+          "wide": false,
+          "ratio": "original",
+          "fit": "cover",
+          "focus": "center"
+        }
+      ],
+      "videos": []
     }
   ],
   "ideato": {
