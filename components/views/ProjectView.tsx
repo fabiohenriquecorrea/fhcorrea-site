@@ -14,6 +14,8 @@ export function ProjectView({ content, slug }: { content: Content; slug: string 
   const p = projects[index];
   const next = projects[(index + 1) % projects.length];
   const deliverables = p.deliverables.filter(Boolean);
+  // itens da galeria ainda sem imagem não aparecem no site
+  const gallery = p.gallery.filter((g) => g.src);
 
   return (
     <article>
@@ -99,9 +101,9 @@ export function ProjectView({ content, slug }: { content: Content; slug: string 
         </section>
       )}
 
-      {p.gallery.length > 0 && (
+      {gallery.length > 0 && (
         <section className="wrap case-gallery" aria-label="Galeria" data-edit={`case:${p.slug}:galeria`}>
-          {p.gallery.map((g, i) => (
+          {gallery.map((g, i) => (
             <figure key={`${g.src}-${i}`} className={g.wide ? "is-wide" : undefined} data-reveal>
               <FramedImage image={g} />
               {g.caption && <figcaption className="t-caption">{g.caption}</figcaption>}
