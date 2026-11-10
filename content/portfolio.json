@@ -148,8 +148,8 @@
       "project": "torre-de-tokyo",
       "front": "3D",
       "title": "Render do empreendimento",
-      "image": "/images/work/tokyo-render.webp",
-      "alt": "Render de edifício residencial em tons de grafite e areia sob céu azul.",
+      "image": "/images/work/tokyo-fachada.webp",
+      "alt": "Imagem 3D da fachada do Torre de Tokyo sob céu azul.",
       "size": "wide",
       "hidden": false
     },
@@ -359,7 +359,7 @@
       "client": "Torre de Tokyo",
       "short": "Torre de Tokyo",
       "title": "Torre de Tokyo: o bairro como identidade",
-      "summary": "Marca e campanha de lançamento para um residencial perto do Parque do Japão, em Maringá.",
+      "summary": "Marca, campanha de lançamento e imagens 3D de um residencial perto do Parque do Japão, em Maringá — da fachada ao apartamento decorado.",
       "role": "Marca, 3D e campanha",
       "fronts": [
         "Marca",
@@ -367,29 +367,166 @@
         "3D"
       ],
       "cover": {
-        "src": "/images/work/tokyo-marca.webp",
-        "alt": "Logotipo Torre de Tokyo com pagode branco em círculo vermelho."
+        "src": "/images/work/tokyo-fachada.webp",
+        "alt": "Imagem 3D da fachada do Torre de Tokyo: torres em grafite e branco sob céu azul, com gramado e portão na frente.",
+        "ratio": "original",
+        "fit": "cover",
+        "focus": "center"
       },
       "challenge": "Um residencial de apartamentos com suíte, voltado ao Minha Casa Minha Vida, precisava se destacar entre lançamentos parecidos — e o maior argumento era a localização, ao lado do Parque do Japão.",
-      "decision": "Transformar a vizinhança em identidade: um pagode dentro de um sol vermelho, tipografia geométrica e larga, e uma campanha que coloca o parque na primeira linha de cada peça, com a simulação como chamada única.",
+      "decision": "Transformar a vizinhança em identidade: um pagode dentro de um sol vermelho, tipografia geométrica e larga, e uma campanha que coloca o parque na primeira linha de cada peça, com a simulação como chamada única. Nas imagens 3D, a fachada, o apartamento decorado e as áreas de lazer aparecem com luz natural e móveis de verdade, para quem compra se imaginar morando ali antes de a obra começar.",
       "deliverables": [
         "Nome visual e logotipo",
-        "Render 3D do empreendimento",
+        "Imagens 3D da fachada",
+        "Apartamento decorado em 3D",
+        "Áreas de lazer em 3D",
         "Campanha de stories e feed",
         "Peças para tráfego pago"
       ],
       "gallery": [
         {
-          "src": "/images/work/tokyo-render.webp",
-          "alt": "Render do edifício Torre de Tokyo sob céu azul.",
-          "caption": "Render 3D",
-          "wide": true
+          "src": "/images/work/tokyo-marca.webp",
+          "alt": "Logotipo Torre de Tokyo com pagode branco em círculo vermelho.",
+          "caption": "Marca",
+          "wide": true,
+          "ratio": "original",
+          "fit": "cover",
+          "focus": "center"
         },
         {
           "src": "/images/work/tokyo-social.webp",
-          "alt": "Stories da campanha Torre de Tokyo sobre fundo vermelho.",
+          "alt": "Stories da campanha Torre de Tokyo sobre fundo vermelho, com um celular ao centro.",
           "caption": "Campanha de lançamento",
-          "wide": true
+          "wide": true,
+          "ratio": "original",
+          "fit": "cover",
+          "focus": "center"
+        },
+        {
+          "src": "/images/work/tokyo-fachada-tarde.webp",
+          "alt": "Imagem 3D da fachada do Torre de Tokyo no fim da tarde.",
+          "caption": "Fachada no fim da tarde",
+          "wide": true,
+          "ratio": "original",
+          "fit": "cover",
+          "focus": "center"
+        },
+        {
+          "src": "/images/work/tokyo-decorado-estar-jantar.webp",
+          "alt": "Imagem 3D do apartamento decorado: mesa redonda, cozinha integrada e TV.",
+          "caption": "Decorado · estar e jantar",
+          "wide": false,
+          "ratio": "original",
+          "fit": "cover",
+          "focus": "center"
+        },
+        {
+          "src": "/images/work/tokyo-decorado-cozinha.webp",
+          "alt": "Imagem 3D da cozinha do decorado, com azulejo branco, geladeira inox e mesa redonda.",
+          "caption": "Decorado · cozinha",
+          "wide": false,
+          "ratio": "original",
+          "fit": "cover",
+          "focus": "center"
+        },
+        {
+          "src": "/images/work/tokyo-decorado-sala.webp",
+          "alt": "Imagem 3D da sala do decorado, com painel de TV, sofá claro e planta.",
+          "caption": "Decorado · sala",
+          "wide": false,
+          "ratio": "original",
+          "fit": "cover",
+          "focus": "center"
+        },
+        {
+          "src": "/images/work/tokyo-decorado-sacada.webp",
+          "alt": "Imagem 3D da sacada com churrasqueira, mesa alta e vista para a cidade.",
+          "caption": "Decorado · sacada",
+          "wide": false,
+          "ratio": "original",
+          "fit": "cover",
+          "focus": "center"
+        },
+        {
+          "src": "/images/work/tokyo-piscina.webp",
+          "alt": "Imagem 3D da piscina com mesas e guarda-sol.",
+          "caption": "Piscina",
+          "wide": true,
+          "ratio": "original",
+          "fit": "cover",
+          "focus": "center"
+        },
+        {
+          "src": "/images/work/tokyo-playground.webp",
+          "alt": "Imagem 3D do playground com gira-gira e balanço.",
+          "caption": "Playground",
+          "wide": false,
+          "ratio": "original",
+          "fit": "cover",
+          "focus": "center"
+        },
+        {
+          "src": "/images/work/tokyo-quadra.webp",
+          "alt": "Imagem 3D da quadra poliesportiva azul, com rede de proteção.",
+          "caption": "Quadra",
+          "wide": false,
+          "ratio": "original",
+          "fit": "cover",
+          "focus": "center"
+        },
+        {
+          "src": "/images/work/tokyo-academia.webp",
+          "alt": "Imagem 3D da academia com esteiras, pesos e piso de madeira.",
+          "caption": "Academia",
+          "wide": false,
+          "ratio": "original",
+          "fit": "cover",
+          "focus": "center"
+        },
+        {
+          "src": "/images/work/tokyo-area-gourmet.webp",
+          "alt": "Imagem 3D da área gourmet com bancada, banquetas e mesas redondas.",
+          "caption": "Área gourmet",
+          "wide": false,
+          "ratio": "original",
+          "fit": "cover",
+          "focus": "center"
+        },
+        {
+          "src": "/images/work/tokyo-brinquedoteca.webp",
+          "alt": "Imagem 3D da brinquedoteca com piscina de bolinhas e prateleiras de brinquedos.",
+          "caption": "Brinquedoteca",
+          "wide": false,
+          "ratio": "original",
+          "fit": "cover",
+          "focus": "center"
+        },
+        {
+          "src": "/images/work/tokyo-sala-de-jogos.webp",
+          "alt": "Imagem 3D da sala de jogos com pebolim, TV e pufes.",
+          "caption": "Sala de jogos",
+          "wide": false,
+          "ratio": "original",
+          "fit": "cover",
+          "focus": "center"
+        },
+        {
+          "src": "/images/work/tokyo-coworking.webp",
+          "alt": "Imagem 3D do coworking com mesa de reunião, sofá e quadros.",
+          "caption": "Coworking",
+          "wide": false,
+          "ratio": "original",
+          "fit": "cover",
+          "focus": "center"
+        },
+        {
+          "src": "/images/work/tokyo-bicicletario.webp",
+          "alt": "Imagem 3D do bicicletário com bicicletas penduradas na parede e patinetes.",
+          "caption": "Bicicletário",
+          "wide": false,
+          "ratio": "original",
+          "fit": "cover",
+          "focus": "center"
         }
       ]
     },
