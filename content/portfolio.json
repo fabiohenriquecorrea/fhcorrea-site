@@ -656,6 +656,13 @@
           "fit": "cover",
           "focus": "center"
         }
+      ],
+      "videos": [
+        {
+          "url": "https://vimeo.com/1123051596?fl=tl&fe=ec",
+          "title": "",
+          "vertical": false
+        }
       ]
     },
     {
