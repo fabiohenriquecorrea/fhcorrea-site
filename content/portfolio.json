@@ -1244,6 +1244,15 @@
           "ratio": "original",
           "fit": "cover",
           "focus": "center"
+        },
+        {
+          "src": "/uploads/mwanx5u3-photo-2026-04-30-14-24-20.jpg",
+          "alt": "",
+          "caption": "Cartão de Visitas",
+          "wide": false,
+          "ratio": "original",
+          "fit": "cover",
+          "focus": "center"
         }
       ],
       "videos": []
