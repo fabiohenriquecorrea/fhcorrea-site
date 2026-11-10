@@ -94,7 +94,7 @@
     "showFilters": true,
     "showFront": true,
     "showTitle": true,
-    "limit": 13,
+    "limit": 16,
     "showMore": true,
     "moreLabel": "Ver todos os trabalhos"
   },
@@ -221,6 +221,39 @@
       "hidden": false,
       "fit": "cover",
       "focus": "right"
+    },
+    {
+      "project": "solucao",
+      "front": "Marca",
+      "title": "Marca Solução",
+      "image": "/images/work/solucao-versao-degrade.webp",
+      "alt": "Logotipo da Solução em branco sobre degradê azul.",
+      "size": "sm",
+      "hidden": false,
+      "fit": "cover",
+      "focus": "center"
+    },
+    {
+      "project": "solucao",
+      "front": "Social",
+      "title": "Redes Solução",
+      "image": "/images/work/solucao-capa.webp",
+      "alt": "Capa para redes da Solução com mulher sorrindo ao celular sobre céu azul.",
+      "size": "wide",
+      "hidden": false,
+      "fit": "cover",
+      "focus": "center"
+    },
+    {
+      "project": "solucao",
+      "front": "Social",
+      "title": "Perfil Solução",
+      "image": "/images/work/solucao-instagram.webp",
+      "alt": "Posts e perfil da Solução no Instagram.",
+      "size": "sm",
+      "hidden": false,
+      "fit": "cover",
+      "focus": "center"
     }
   ],
   "archive": {
@@ -867,6 +900,125 @@
         }
       ],
       "videos": []
+    },
+    {
+      "slug": "solucao",
+      "client": "Solução — Correspondente Caixa",
+      "short": "Solução",
+      "title": "Solução: descomplicando o financiamento",
+      "summary": "Rebranding de um correspondente Caixa em Maringá — marca, sistema visual e redes para quem quer financiar o imóvel sem complicação.",
+      "role": "Rebranding e identidade visual",
+      "fronts": [
+        "Marca",
+        "Social"
+      ],
+      "cover": {
+        "src": "/images/work/solucao-instagram.webp",
+        "alt": "Mockup com posts da Solução e o perfil no Instagram aberto num celular.",
+        "ratio": "original",
+        "fit": "cover",
+        "focus": "center"
+      },
+      "challenge": "A Solução ajuda famílias a financiar a casa própria pela Caixa — um assunto que costuma assustar. A marca antiga, pesada e com o slogan “realizando sonhos”, se parecia com tantas outras do setor e não transmitia a leveza de um atendimento que descomplica.",
+      "decision": "Redesenhar o símbolo como um S de traço contínuo, construído em ângulos, mais leve e preciso, ao lado da tipografia Aeonik e de uma paleta de azuis que vai do céu claro ao marinho — o azul de confiança do mundo financeiro, só que com respiro. Os degradês suaves viraram assinatura nas redes, e “descomplicando seu financiamento” passou a guiar cada peça.",
+      "deliverables": [
+        "Rebranding: da marca antiga à nova",
+        "Símbolo e logotipo com grade de construção",
+        "Tipografia Aeonik e paleta de azuis",
+        "Assinatura animada em vídeo",
+        "Capa e posts para as redes",
+        "Identidade aplicada no perfil do Instagram"
+      ],
+      "gallery": [
+        {
+          "src": "/images/work/solucao-capa.webp",
+          "alt": "Capa para redes com uma mulher sorrindo ao celular entre os textos “descomplicando” e “seu financiamento”, sobre céu azul.",
+          "caption": "Capa para as redes",
+          "wide": true,
+          "ratio": "original",
+          "fit": "cover",
+          "focus": "center"
+        },
+        {
+          "src": "/images/work/solucao-marca-antiga.webp",
+          "alt": "Marca antiga da Solução: hexágono duplo com S e letras pesadas, com o slogan “realizando sonhos”.",
+          "caption": "Antes",
+          "wide": false,
+          "ratio": "original",
+          "fit": "cover",
+          "focus": "center"
+        },
+        {
+          "src": "/images/work/solucao-marca-nova.webp",
+          "alt": "Marca nova da Solução: S de traço contínuo em ângulos e letras mais leves, em azul.",
+          "caption": "Depois",
+          "wide": false,
+          "ratio": "original",
+          "fit": "cover",
+          "focus": "center"
+        },
+        {
+          "src": "/images/work/solucao-construcao.webp",
+          "alt": "Grade de construção do logotipo com as medidas do símbolo e do nome.",
+          "caption": "Construção da marca",
+          "wide": true,
+          "ratio": "original",
+          "fit": "cover",
+          "focus": "center"
+        },
+        {
+          "src": "/images/work/solucao-tipografia-cores.webp",
+          "alt": "Tipografia Aeonik, paleta de azuis do claro ao marinho e degradê da marca.",
+          "caption": "Tipografia e cores",
+          "wide": true,
+          "ratio": "original",
+          "fit": "cover",
+          "focus": "center"
+        },
+        {
+          "src": "/images/work/solucao-versao-clara.webp",
+          "alt": "Logotipo em azul-claro sobre fundo branco.",
+          "caption": "Versão sobre fundo claro",
+          "wide": false,
+          "ratio": "original",
+          "fit": "cover",
+          "focus": "center"
+        },
+        {
+          "src": "/images/work/solucao-versao-degrade.webp",
+          "alt": "Logotipo em branco sobre degradê azul.",
+          "caption": "Versão sobre degradê",
+          "wide": false,
+          "ratio": "original",
+          "fit": "cover",
+          "focus": "center"
+        },
+        {
+          "src": "/images/work/solucao-versao-escura.webp",
+          "alt": "Logotipo em branco sobre fundo azul-marinho.",
+          "caption": "Versão sobre fundo escuro",
+          "wide": true,
+          "ratio": "original",
+          "fit": "cover",
+          "focus": "center"
+        },
+        {
+          "src": "/images/work/solucao-post.webp",
+          "alt": "Post vertical em degradê azul com o texto “Construir, comprar usado ou na planta? Com a CAIXA dá pra financiar”.",
+          "caption": "Post para o Instagram",
+          "wide": false,
+          "ratio": "original",
+          "fit": "cover",
+          "focus": "center"
+        }
+      ],
+      "videos": [
+        {
+          "url": "/video/solucao-assinatura.mp4",
+          "title": "Assinatura animada",
+          "vertical": false
+        }
+      ]
     }
   ],
   "ideato": {
