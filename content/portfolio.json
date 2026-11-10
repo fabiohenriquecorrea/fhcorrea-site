@@ -172,30 +172,12 @@
       "hidden": false
     },
     {
-      "project": "ideato",
-      "front": "Marca",
-      "title": "Ideato Studio",
-      "image": "/images/ideato/brand.webp",
-      "alt": "Parede branca com grande símbolo em verde-lima e blocos geométricos grafite.",
-      "size": "tall",
-      "hidden": false
-    },
-    {
       "project": "conquist",
       "front": "Marca",
       "title": "Pastas institucionais",
       "image": "/images/work/conquist-pasta.webp",
       "alt": "Pastas da Conquist em azul com padrão do símbolo e capas pretas com textura de linhas.",
       "size": "sm",
-      "hidden": false
-    },
-    {
-      "project": "ideato",
-      "front": "Site",
-      "title": "Site Ideato",
-      "image": "/images/ideato/site.webp",
-      "alt": "Página inicial do site da Ideato com título 'Da ideia ao ato' sobre imagem aérea.",
-      "size": "wide",
       "hidden": false
     },
     {
@@ -313,10 +295,50 @@
       ]
     },
     {
+      "slug": "torre-de-tokyo-copia",
+      "client": "Construtora Padial",
+      "short": "Residencial Une II",
+      "title": "Residencial Une II",
+      "summary": "Marca e campanha de lançamento para o Residencial Une II, na zona sul , em Maringá.",
+      "role": "Marca, 3D e campanha",
+      "fronts": [
+        "Marca",
+        "Social",
+        "3D"
+      ],
+      "cover": {
+        "src": "/uploads/mwal55d7-232323-2.jpg",
+        "alt": "Logotipo Torre de Tokyo com pagode branco em círculo vermelho."
+      },
+      "challenge": "Um residencial de apartamentos com suíte, voltado ao Minha Casa Minha Vida, precisava se destacar entre lançamentos parecidos — e o maior argumento era a localização, ao lado do Parque do Japão.",
+      "decision": "Transformar a vizinhança em identidade: um pagode dentro de um sol vermelho, tipografia geométrica e larga, e uma campanha que coloca o parque na primeira linha de cada peça, com a simulação como chamada única.",
+      "deliverables": [
+        "Nome visual e logotipo",
+        "Render 3D do empreendimento",
+        "Campanha de stories e feed",
+        "Peças para tráfego pago"
+      ],
+      "gallery": [
+        {
+          "src": "/images/work/tokyo-render.webp",
+          "alt": "Render do edifício Torre de Tokyo sob céu azul.",
+          "caption": "Render 3D",
+          "wide": true
+        },
+        {
+          "src": "/images/work/tokyo-social.webp",
+          "alt": "Stories da campanha Torre de Tokyo sobre fundo vermelho.",
+          "caption": "Campanha de lançamento",
+          "wide": true
+        }
+      ],
+      "year": "2026"
+    },
+    {
       "slug": "tecnologica",
       "client": "Tecnológica Construtora",
       "short": "Tecnológica",
-      "title": "Tecnológica: engenharia que cabe num monograma",
+      "title": "Construtora Tecnológica\n",
       "summary": "Identidade visual para uma construtora — um monograma de linhas contínuas que funciona do capacete à fachada.",
       "role": "Identidade visual",
       "fronts": [
@@ -336,52 +358,24 @@
       ],
       "gallery": [
         {
-          "src": "/images/work/tecnologica-marca.webp",
-          "alt": "Logotipo Tecnológica Construtora em bege sobre verde escuro.",
-          "caption": "Assinatura principal",
+          "src": "/uploads/mwakr9vc-verde-72x-100.jpg",
+          "alt": "",
+          "caption": "",
           "wide": true
-        }
-      ]
-    },
-    {
-      "slug": "ideato",
-      "client": "Ideato Studio",
-      "short": "Ideato",
-      "title": "Ideato: quando o jeito de trabalhar virou estúdio",
-      "summary": "Marca, design system e site do meu estúdio — marca, social, imagem aérea e site sob o mesmo raciocínio.",
-      "role": "Fundador · marca, sistema e site",
-      "fronts": [
-        "Marca",
-        "Site"
-      ],
-      "cover": {
-        "src": "/images/ideato/site.webp",
-        "alt": "Página inicial do site da Ideato com título 'Da ideia ao ato' sobre imagem aérea."
-      },
-      "challenge": "Empresas contratam cada frente separada — uma agência para as redes, um piloto para o drone, alguém para o site — e as peças não conversam. O estúdio precisava provar o contrário na própria marca.",
-      "decision": "Começar pelo posicionamento, “da ideia ao ato”, e deixar ele guiar tudo: um símbolo que vira linha de assinatura, um design system com uma cor reservada para a decisão, e um site estático editável por painel próprio.",
-      "deliverables": [
-        "Posicionamento e marca",
-        "Design system (tokens, tipografia, componentes)",
-        "Site em Next.js com painel de edição",
-        "Tipografia cinética e motion"
-      ],
-      "gallery": [
-        {
-          "src": "/images/ideato/brand.webp",
-          "alt": "Parede com grande símbolo verde-lima da Ideato.",
-          "caption": "Marca — imagem ilustrativa"
         },
         {
-          "src": "/images/ideato/field.webp",
-          "alt": "Drone sobrevoando um campo dourado ao pôr do sol.",
-          "caption": "Imagem aérea — imagem ilustrativa"
+          "src": "/images/work/tecnologica-aplicacoes.webp",
+          "alt": "",
+          "caption": "",
+          "wide": true
+        },
+        {
+          "src": "",
+          "alt": "",
+          "caption": "",
+          "wide": false
         }
-      ],
-      "link": {
-        "label": "@ideatostudio no Instagram",
-        "href": "https://instagram.com/ideatostudio"
-      }
+      ]
     }
   ],
   "ideato": {
