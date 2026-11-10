@@ -371,42 +371,111 @@
       "slug": "tecnologica",
       "client": "Tecnológica Construtora",
       "short": "Tecnológica",
-      "title": "Construtora Tecnológica\n",
-      "summary": "Identidade visual para uma construtora — um monograma de linhas contínuas que funciona do capacete à fachada.",
-      "role": "Identidade visual",
+      "title": "Construtora Tecnológica",
+      "summary": "Rebranding de uma construtora: a marca antiga, de letras pesadas e casinha no topo, deu lugar a um monograma de linhas contínuas que funciona do capacete à fachada.",
+      "role": "Rebranding e identidade visual",
       "fronts": [
         "Marca"
       ],
       "cover": {
         "src": "/images/work/tecnologica-aplicacoes.webp",
-        "alt": "Fachada iluminada com a marca Tecnológica Construtora e capacete com o logotipo."
+        "alt": "Fachada iluminada com a marca Tecnológica Construtora e capacete com o logotipo.",
+        "ratio": "original",
+        "fit": "cover",
+        "focus": "center"
       },
-      "challenge": "Construtora precisava de uma marca que parecesse técnica sem ficar fria, e que se sustentasse tanto em canteiro de obra quanto em escritório e redes.",
-      "decision": "Desenhar as iniciais t e c como uma só linha contínua, como um traço de projeto. O monograma vira grafismo de parede em neon, carimbo em EPI e ícone de perfil — sempre em verde profundo e bege, cores de terra e obra.",
+      "challenge": "A marca antiga — letras pesadas em verde com uma casinha em cima — dizia “construtora” do jeito mais genérico possível e já não acompanhava o tamanho da empresa. A nova precisava parecer técnica sem ficar fria, e funcionar do canteiro de obra às redes.",
+      "decision": "O símbolo junta as iniciais das duas palavras do nome — o t de tecnológica e o c de construtora — num traço contínuo, como uma linha de projeto, apoiado num círculo. A Heavitas Neue dá firmeza ao nome, e a paleta de verdes profundos, sálvia e areia traz as cores de terra e de obra. O monograma vira grafismo de parede em neon, carimbo no capacete e ícone de perfil.",
       "deliverables": [
-        "Monograma e logotipo",
-        "Paleta e tipografia",
+        "Rebranding: da marca antiga à nova",
+        "Símbolo e logotipo",
+        "Tipografia Heavitas Neue",
+        "Paleta de cores",
+        "Versões para fundos claros e escuros",
         "Aplicações: fachada e EPI",
         "Conteúdo institucional e audiovisual"
       ],
       "gallery": [
         {
-          "src": "/uploads/mwakr9vc-verde-72x-100.jpg",
-          "alt": "",
-          "caption": "",
-          "wide": true
+          "src": "/images/work/tecnologica-antes-depois.webp",
+          "alt": "Antes e depois: a marca antiga, com letras verdes e uma casinha, ao lado do novo logotipo com monograma.",
+          "caption": "Antes e depois",
+          "wide": true,
+          "ratio": "original",
+          "fit": "cover",
+          "focus": "center"
         },
         {
-          "src": "/images/work/tecnologica-aplicacoes.webp",
-          "alt": "",
-          "caption": "",
-          "wide": true
+          "src": "/images/work/tecnologica-simbolo.webp",
+          "alt": "Construção do símbolo: o monograma da palavra tecnológica somado ao da palavra construtora.",
+          "caption": "O símbolo: tecnológica + construtora",
+          "wide": true,
+          "ratio": "original",
+          "fit": "cover",
+          "focus": "center"
         },
         {
-          "src": "",
-          "alt": "",
-          "caption": "",
-          "wide": false
+          "src": "/images/work/tecnologica-simbolo-verde.webp",
+          "alt": "Símbolo da Tecnológica em bege sobre fundo verde escuro.",
+          "caption": "Símbolo",
+          "wide": false,
+          "ratio": "original",
+          "fit": "cover",
+          "focus": "center"
+        },
+        {
+          "src": "/images/work/tecnologica-logo-verde.webp",
+          "alt": "Logotipo completo da Tecnológica Construtora em bege sobre verde escuro.",
+          "caption": "Assinatura",
+          "wide": false,
+          "ratio": "original",
+          "fit": "cover",
+          "focus": "center"
+        },
+        {
+          "src": "/images/work/tecnologica-fonte.webp",
+          "alt": "Tipografia Heavitas Neue em seus pesos, do mais leve ao mais forte.",
+          "caption": "Tipografia",
+          "wide": true,
+          "ratio": "original",
+          "fit": "cover",
+          "focus": "center"
+        },
+        {
+          "src": "/images/work/tecnologica-cores.webp",
+          "alt": "Paleta da marca com verdes profundos, verde-sálvia, off-white e areia.",
+          "caption": "Cores",
+          "wide": true,
+          "ratio": "original",
+          "fit": "cover",
+          "focus": "center"
+        },
+        {
+          "src": "/images/work/tecnologica-versao-clara.webp",
+          "alt": "Logotipo em verde escuro sobre fundo verde-claro.",
+          "caption": "Versão sobre fundo claro",
+          "wide": false,
+          "ratio": "original",
+          "fit": "cover",
+          "focus": "center"
+        },
+        {
+          "src": "/images/work/tecnologica-versao-areia.webp",
+          "alt": "Logotipo em verde escuro sobre fundo areia.",
+          "caption": "Versão sobre areia",
+          "wide": false,
+          "ratio": "original",
+          "fit": "cover",
+          "focus": "center"
+        },
+        {
+          "src": "/images/work/tecnologica-versao-escura.webp",
+          "alt": "Logotipo em branco sobre fundo verde profundo.",
+          "caption": "Versão sobre fundo escuro",
+          "wide": true,
+          "ratio": "original",
+          "fit": "cover",
+          "focus": "center"
         }
       ]
     },
