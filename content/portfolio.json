@@ -94,7 +94,7 @@
     "showFilters": true,
     "showFront": true,
     "showTitle": true,
-    "limit": 12,
+    "limit": 13,
     "showMore": true,
     "moreLabel": "Ver todos os trabalhos"
   },
@@ -196,6 +196,17 @@
       "image": "/images/work/perform-campanha-autoestima.webp",
       "alt": "Peça de campanha da Perform com mulher tocando o rosto.",
       "size": "wide",
+      "hidden": false,
+      "fit": "cover",
+      "focus": "center"
+    },
+    {
+      "project": "une-ii",
+      "front": "3D",
+      "title": "Book Une II",
+      "image": "/images/work/une-fachada-render.webp",
+      "alt": "Render da fachada do edifício Une II ao entardecer.",
+      "size": "lg",
       "hidden": false,
       "fit": "cover",
       "focus": "center"
@@ -606,6 +617,181 @@
           "alt": "Implantação da etapa I do residencial, com 44 casas numeradas na quadra 07.",
           "caption": "Implantação por etapa",
           "wide": false,
+          "ratio": "original",
+          "fit": "cover",
+          "focus": "center"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "slug": "une-ii",
+      "client": "Residencial Une II",
+      "short": "Une II",
+      "title": "Une II: cada espaço com um propósito",
+      "summary": "Book de apresentação de um residencial vertical no Jardim Ipanema, em Maringá — fachada, plantas, apartamento decorado e mais de dez áreas de lazer, com vendas pela Conquist e construção da Padial.",
+      "role": "Book de apresentação",
+      "fronts": [
+        "Marca",
+        "3D"
+      ],
+      "cover": {
+        "src": "/images/work/une-fachada.webp",
+        "alt": "Fachada do edifício Une II ao entardecer, com detalhes amarelos nas sacadas e jardim em primeiro plano.",
+        "ratio": "original",
+        "fit": "cover",
+        "focus": "center"
+      },
+      "challenge": "Um prédio de apartamentos de dois quartos, com mais de dez opções de lazer, precisava ser entendido antes de existir. Quem comprava tinha que enxergar a planta, o decorado e as áreas comuns — e sentir como seria morar ali.",
+      "decision": "Construir o book a partir da frase que abre o material — “cada espaço tem um propósito. O seu.” —, com um fundo escuro que deixa as imagens brilharem e o amarelo da marca nomeando cada ambiente. A sequência vai da fachada ao bairro, das plantas ao decorado e, por fim, a cada área de lazer.",
+      "deliverables": [
+        "Book de apresentação com 31 pranchas",
+        "Plantas humanizadas dos apartamentos",
+        "Imagens da fachada, do decorado e das áreas comuns",
+        "Localização com vista aérea e mapa",
+        "Quadro de diferenciais"
+      ],
+      "gallery": [
+        {
+          "src": "/images/work/une-capa.webp",
+          "alt": "Capa do book com o logotipo Une II em amarelo sobre fundo escuro e as marcas Conquist e Padial.",
+          "caption": "Capa",
+          "wide": true,
+          "ratio": "original",
+          "fit": "cover",
+          "focus": "center"
+        },
+        {
+          "src": "/images/work/une-proposito.webp",
+          "alt": "Prancha com o texto “Cada espaço tem um propósito. O seu.” ao lado da fachada do edifício.",
+          "caption": "Abertura",
+          "wide": true,
+          "ratio": "original",
+          "fit": "cover",
+          "focus": "center"
+        },
+        {
+          "src": "/images/work/une-localizacao.webp",
+          "alt": "Vista aérea do bairro ao entardecer com o edifício Une II e os pontos próximos marcados.",
+          "caption": "Localização",
+          "wide": true,
+          "ratio": "original",
+          "fit": "cover",
+          "focus": "center"
+        },
+        {
+          "src": "/images/work/une-planta-final-02.webp",
+          "alt": "Planta humanizada do apartamento final 02, com 52,61 m², dois dormitórios e sacada gourmet.",
+          "caption": "Planta final 02",
+          "wide": false,
+          "ratio": "original",
+          "fit": "cover",
+          "focus": "center"
+        },
+        {
+          "src": "/images/work/une-planta-final-06.webp",
+          "alt": "Planta humanizada do apartamento final 06, com 54,32 m², dois dormitórios e sacada gourmet.",
+          "caption": "Planta final 06",
+          "wide": false,
+          "ratio": "original",
+          "fit": "cover",
+          "focus": "center"
+        },
+        {
+          "src": "/images/work/une-diferenciais.webp",
+          "alt": "Prancha de diferenciais: piso porcelanato, torre com dois elevadores, mais de dez opções de lazer e garagem coberta.",
+          "caption": "Diferenciais",
+          "wide": true,
+          "ratio": "original",
+          "fit": "cover",
+          "focus": "center"
+        },
+        {
+          "src": "/images/work/une-sala-jantar.webp",
+          "alt": "Sala de jantar do apartamento decorado, com mesa oval e luminária circular.",
+          "caption": "Decorado · sala de jantar",
+          "wide": false,
+          "ratio": "original",
+          "fit": "cover",
+          "focus": "center"
+        },
+        {
+          "src": "/images/work/une-cozinha.webp",
+          "alt": "Cozinha do apartamento decorado em madeira clara, com geladeira inox.",
+          "caption": "Decorado · cozinha",
+          "wide": false,
+          "ratio": "original",
+          "fit": "cover",
+          "focus": "center"
+        },
+        {
+          "src": "/images/work/une-sala-estar.webp",
+          "alt": "Sala de estar do apartamento decorado, com sofá claro e porta de vidro para a sacada.",
+          "caption": "Decorado · sala de estar",
+          "wide": false,
+          "ratio": "original",
+          "fit": "cover",
+          "focus": "center"
+        },
+        {
+          "src": "/images/work/une-suite.webp",
+          "alt": "Dormitório suíte do apartamento decorado, com cabeceira de madeira e luz indireta.",
+          "caption": "Decorado · suíte",
+          "wide": false,
+          "ratio": "original",
+          "fit": "cover",
+          "focus": "center"
+        },
+        {
+          "src": "/images/work/une-sacada.webp",
+          "alt": "Sacada com churrasqueira e mesa para dois, com vista para a cidade.",
+          "caption": "Sacada com churrasqueira",
+          "wide": true,
+          "ratio": "original",
+          "fit": "cover",
+          "focus": "center"
+        },
+        {
+          "src": "/images/work/une-espaco-gourmet.webp",
+          "alt": "Espaço gourmet com piscina privativa e bancada de madeira ao fundo.",
+          "caption": "Espaço gourmet",
+          "wide": false,
+          "ratio": "original",
+          "fit": "cover",
+          "focus": "center"
+        },
+        {
+          "src": "/images/work/une-lounge.webp",
+          "alt": "Lounge externo com mesas e guarda-sóis ao lado do edifício.",
+          "caption": "Lounge externo",
+          "wide": false,
+          "ratio": "original",
+          "fit": "cover",
+          "focus": "center"
+        },
+        {
+          "src": "/images/work/une-crossfit.webp",
+          "alt": "Espaço de crossfit ao ar livre com barra, anilhas e caixotes.",
+          "caption": "Espaço crossfit",
+          "wide": false,
+          "ratio": "original",
+          "fit": "cover",
+          "focus": "center"
+        },
+        {
+          "src": "/images/work/une-brinquedoteca.webp",
+          "alt": "Brinquedoteca com piscina de bolinhas e porta de vidro para o jardim.",
+          "caption": "Brinquedoteca",
+          "wide": false,
+          "ratio": "original",
+          "fit": "cover",
+          "focus": "center"
+        },
+        {
+          "src": "/images/work/une-fachada-noite.webp",
+          "alt": "Fachada do Une II à noite, com as janelas iluminadas e carros passando na avenida.",
+          "caption": "Fachada noturna",
+          "wide": true,
           "ratio": "original",
           "fit": "cover",
           "focus": "center"
